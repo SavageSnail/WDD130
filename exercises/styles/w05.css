@@ -21,10 +21,11 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 1em;
+    grid-template-rows: 1fr 1fr;
     background-color: gray;
     margin: 0 auto;
-    text-align: center center;
-    padding-top: 1em;
+    text-align: center;
+    padding-top: 2em;
 }
 
 #desk, #person, #graphic {
@@ -32,6 +33,7 @@ body {
     width: 50%;
     border: solid rgb(55, 55, 55);
     border-width: 8px;
+    align-self: center;
 }
 
 #desk {
