@@ -1,0 +1,47 @@
+body {
+    background-color: gray;
+}
+
+
+
+.top_half {
+    margin: 0;
+    width: 100%;
+    padding: 0%;
+}
+
+#bubbles {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    
+}
+
+.bottom_half {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1em;
+    background-color: gray;
+    margin: 0 auto;
+    text-align: center center;
+    padding-top: 1em;
+}
+
+#desk, #person, #graphic {
+    border-radius: 50%;
+    width: 50%;
+    border: solid rgb(55, 55, 55);
+    border-width: 8px;
+}
+
+#desk {
+    margin-left: auto;
+}
+
+#person {
+    margin-right: auto;
+}
+
+#graphic {
+    margin: auto;
+}
