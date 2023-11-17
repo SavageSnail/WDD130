@@ -2,6 +2,8 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Lustria&family=Metal+Mania&family=Neuton&display=swap');
+
 
 :root {
   /* change the values below to your colors from your palette */
@@ -14,8 +16,8 @@ Fonts are separated by a | */
   /*https://coolors.co/4f401f-955d29-659094-121003-304a48*/
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: Lustria, "Metal Mania", "IM Fell French Canon SC";
+  --paragraph-font: Neuton, Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #955d29;  /* headlines on a white background */ 
@@ -47,6 +49,9 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
+}
+h1{
+  font-family: "Metal Mania";
 }
 h2 {
   text-align: center;
